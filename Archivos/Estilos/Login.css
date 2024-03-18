@@ -19,13 +19,35 @@ body
     width: 50%;
     padding: 20px;
     margin: 0 auto;
+    border-radius: 15px;
+}
+
+.main h1
+{
+    color: #119744;
+}
+
+.main input[type="email"], input[type="password"]
+{
+    width: 300px; /* Ancho del campo de entrada */
+    height: 40px; /* Altura del campo de entrada */
+    padding: 10px; /* Espacio interno dentro del campo de entrada */
+    font-size: 20px; 
+    border-radius: 5px;
+    background-color: #e8e9e9;
+    border-color: black;
+}
+
+.main hr
+{
+    width: 80%;
 }
 
 .boton
 {
     background-color: #119744;
     color: white;
-    padding: 10px 72px;
+    padding: 12px 113px;
     border: none;
     border-radius: 5px;
     cursor: pointer;

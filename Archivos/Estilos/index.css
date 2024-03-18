@@ -7,6 +7,13 @@
     font-family: Arial;
 }
 
+.nav img
+{
+    text-align: left;
+    width: 5%;
+    display: block;
+}
+
 .nav
 {
     
