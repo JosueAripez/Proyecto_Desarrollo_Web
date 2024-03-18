@@ -1,27 +1,31 @@
 .header
 {
-    background-color: #006634;
+    background-color: #119744;
     padding: 3px;
     color: #ffffff;
     font-size: 14px;
+    font-family: Arial;
 }
 
 .nav
 {
-    padding: 3px;
+    
     font-size: 14px;
+    font-family: Arial;
 }
 
 .main
 {
     background-color: #f5f6f7;
+    font-family: Arial;
 }
 
 .footer
 {
-    background-color: #006634;
-    padding: 20px;
+    background-color: #119744;
+    padding: 80px;
     text-align: center;
     color: #ffffff;
     font-size: 14px;
+    font-family: Arial;
 }
