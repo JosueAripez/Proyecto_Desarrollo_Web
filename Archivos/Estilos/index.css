@@ -22,7 +22,11 @@ nav
     height:70px;
 }
 
+#img-principal
+{
+    height: 300px;
 
+}
 .main
 {
     background-color: #e8e9e9;
