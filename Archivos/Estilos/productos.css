@@ -1,0 +1,29 @@
+/* Estilos para la información del producto */
+.product-info {
+    display: none;
+}
+
+.product-info img {
+    max-width: 200px;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    cursor: pointer;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}

@@ -7,6 +7,8 @@
     <title>Nat's Veggies</title>
     <link href="Archivos/Imgs/Logo_NV.png" rel="icon">
     <link href="Archivos/Estilos/index.css" rel="stylesheet">
+    <link href="Archivos/Estilos/productos.css" rel="stylesheet">
+    <script src="Archivos/Scripts/productos.js"></script>
 </head>
 
 <body>
@@ -16,9 +18,9 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Contactos</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="about.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
                     <li class="search-box">
                         <input type="text" id="buscador" name="buscador" placeholder="Buscar">
                         <button type="submit">Buscar</button>
@@ -36,12 +38,37 @@
         </nav>
         <main class="main">
             <p>Producto</p>
+            <table id="productsTable">
+                <thead>
+                    <tr>
+                        <th>Nombre del Producto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="producto1" onclick="MostrarInfoProducto('producto1')">
+                        <td>Producto 1</td>
+                    </tr>
+                    <tr id="producto2" onclick="MostrarInfoProducto('producto2')">
+                        <td>Producto 2</td>
+                    </tr>
+                    <tr id="producto3" onclick="MostrarInfoProducto('producto3')">
+                        <td>Producto 3</td>
+                    </tr>
+                </tbody>
+            </table>
+        
+            <div id="productInfo" class="product-info">
+                <h2 id="productName"></h2>
+                <img id="productImage" src="#" alt="Imagen del Producto">
+                <p id="productDescription"></p>
+            </div>
+            
         </main>
         <footer class="footer">
             <p>© copyright 2024 Nat's Veggies. Todos los derechos reservados</p>
         </footer>
     </div>
-
-</body>/*fdfdfd*/
+    
+</body>
 
 </html>
