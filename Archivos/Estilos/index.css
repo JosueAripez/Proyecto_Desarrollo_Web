@@ -1,8 +1,8 @@
 .header
 {
-    background-color: #119744;
+    background-color: #149c68;
     padding: 3px;
-    color: #ffffff;
+    color: #efeae4;
     font-size: 14px;
     font-family: Arial;
 }
@@ -22,20 +22,35 @@ nav
     height:70px;
 }
 
+#parrafo1{
+    text-align: center;
+    font-family: Georgia, serif;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#fondo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
 #img-principal
 {
-    height: 300px;
-
+    height: 400px;
+    width: 600px;
 }
+
 .main
 {
-    background-color: #e8e9e9;
+    background-color: #EFEAE4;
     font-family: Arial;
 }
 
 .footer
 {
-    background-color: #119744;
+    background-color: #373737;
     padding: 80px;
     text-align: center;
     color: #ffffff;
@@ -47,6 +62,8 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    height: 20px;
+    position: absolute;
 }
 
 nav ul li {
@@ -61,9 +78,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #24e313;
+    background-color: #383939;
 }
-
 
 .search-box {
     margin-left: auto;
@@ -77,7 +93,7 @@ nav ul li a:hover {
 
 .search-box button {
     padding: 5px 10px;
-    background-color: #007bff;
+    background-color: #aee637;
     border: none;
     color: #fff;
     border-radius: 3px;
@@ -85,5 +101,5 @@ nav ul li a:hover {
 }
 
 .search-box button:hover {
-    background-color: #0056b3;
+    background-color: #8db986;
 }
