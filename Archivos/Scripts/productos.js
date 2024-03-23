@@ -13,17 +13,17 @@ function MostrarInfoProducto(product) {
         var productDescription = "";
 
         switch(product) {
-            case 'producto1':
+            case 'Zanahoria_Cambray':
                 productName = "Producto 1";
                 productImageSrc = "imagen_producto1.jpg";
                 productDescription = "Descripción del Producto 1.";
                 break;
-            case 'producto2':
+            case 'Chile_Mini_Bell':
                 productName = "Producto 2";
                 productImageSrc = "imagen_producto2.jpg";
                 productDescription = "Descripción del Producto 2.";
                 break;
-            case 'producto3':
+            case 'Pepino':
                 productName = "Producto 3";
                 productImageSrc = "imagen_producto3.jpg";
                 productDescription = "Descripción del Producto 3.";
