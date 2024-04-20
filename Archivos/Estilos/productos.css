@@ -29,6 +29,7 @@
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center; /* Alinea el texto al centro */
+    z-index: 1000; /* Ajusta el z-index para asegurar que se muestre delante de todos los elementos */
 }
 
 .producto.active .info-producto {
@@ -63,7 +64,7 @@
 }
 
 .producto-info:hover img {
-    filter: brightness(120%) /* Aplica el filtro de color al pasar el ratón */
+    filter: brightness(120%); /* Aplica el filtro de color al pasar el ratón */
 }
 
 .producto-nombre {
