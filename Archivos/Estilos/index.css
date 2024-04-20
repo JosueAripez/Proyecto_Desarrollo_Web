@@ -48,14 +48,49 @@ nav
     font-family: Arial;
 }
 
-.footer
-{
+.footer {
     background-color: #373737;
-    padding: 80px;
+    color: #adacac;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-column h4 {
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #adacac;
+    text-decoration: none;
+}
+
+.footer-column p {
+    margin: 0;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    background-color: #1d1d1d;
+    padding: 20px 0;
     text-align: center;
-    color: #ffffff;
-    font-size: 14px;
-    font-family: Arial;
 }
 
 nav ul {
