@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -12,63 +12,59 @@
 </head>
 
 <body>
-
-    <div>
-        <header class="header">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="productos.html">Productos</a></li>
-                    <li><a href="about.html">Nosotros</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                    <li class="search-box">
-                        <input type="text" id="buscador" name="buscador" placeholder="Buscar">
-                        <button type="submit">Buscar</button>
-                    </li>
-                </ul>
-                <div class="logo">
-                    <img src="Archivos/Imgs/Logo.png" id="logo-nav" name="logo-nav">
-                </div>
-            </nav>
-            <p><b></b></p>
-            <!-- Contacto -->
-        </header>
-        
-
-        </nav>
-        <main class="main">
-            <p>Producto</p>
-            <table id="productsTable">
-                <thead>
-                    <tr>
-                        <th>Nombre del Producto</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr id="Melon_Palmira" onclick="MostrarInfoProducto('Melon_Palmira')">
-                        <td>>Melon Palmira</td>
-                    </tr>
-                    <tr id="Fresa" onclick="MostrarInfoProducto('Fresa')">
-                        <td>>Chile Morron</td>
-                    </tr>
-                    <tr id="Chile_Jalapenio" onclick="MostrarInfoProducto('Chile_Jalapenio')">
-                        <td>>Chile Jalapeño</td>
-                    </tr>
-                </tbody>
-            </table>
-        
-            <div id="productInfo" class="product-info">
-                <h2 id="productName"></h2>
-                <img src="#">
-                <p id="productDescription"></p>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="about.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li class="search-box">
+                    <input type="text" id="buscador" name="buscador" placeholder="Buscar">
+                    <button type="submit">Buscar</button>
+                </li>
+            </ul>
+            <div class="logo">
+                <img src="Archivos/Imgs/Logo.png" id="logo-nav" name="logo-nav">
             </div>
-            
-        </main>
-        <footer class="footer">
-            <p>© copyright 2024 Nat's Veggies. Todos los derechos reservados</p>
-        </footer>
+        </nav>
+        <p><b></b></p>
+        <!-- Contacto -->
+    </header>
+    <div class="producto">
+        <div class="producto-info">
+            <img src="Archivos/Imgs/Productos/Chile_Jalapenio.jpeg" alt="Producto 1" onclick="mostrarInfo(this)">
+            <p class="producto-nombre">Chile Jalapeño</p>
+        </div>
+        <div class="info-producto">
+            <h3>Producto 1</h3>
+            <p>Nombre del Producto 1</p>
+            <p>Descripción del Producto 1</p>
+            <p>Precio: $XX.XX</p>
+            <button onclick="cerrarInfo()">Cerrar</button>
+        </div>
     </div>
     
+
+    <div class="producto">
+        <div class="producto-info">
+            <img src="Archivos/Imgs/Productos/Fresa.jpeg" alt="Producto 1" onclick="mostrarInfo(this)">
+            <p class="producto-nombre">Fresa</p>
+        </div>
+        <div class="info-producto">
+            <h3>Producto 1</h3>
+            <p>Nombre del Producto 1</p>
+            <p>Descripción del Producto 1</p>
+            <p>Precio: $XX.XX</p>
+            <button onclick="cerrarInfo()">Cerrar</button>
+        </div>
+    </div>
+    
+
+
+    <footer class="footer">
+        <p>© copyright 2024 Nat's Veggies. Todos los derechos reservados</p>
+    </footer>
 </body>
 
 </html>
