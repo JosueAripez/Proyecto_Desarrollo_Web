@@ -85,3 +85,16 @@
 .producto-info:hover .producto-nombre {
     bottom: -30px; /* Desplaza el nombre hacia arriba al pasar el ratón */
 }
+
+.producto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los elementos en el contenedor */
+    margin: 20px; /* Agrega un margen externo */
+}
+
+.producto {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
