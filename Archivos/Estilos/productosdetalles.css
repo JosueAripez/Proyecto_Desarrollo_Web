@@ -1,34 +1,25 @@
-.slide {
-    display: none;
-}
-
-.slider img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Estilos para los controles de navegación */
-.control {
-    cursor: pointer;
-}
-/* Estilos para el slider */
-.slider {
-    float: left; /* Alinea el slider a la izquierda */
-    margin-right: 20px; /* Espacio entre el slider y la información del producto */
-}
-
-.slide img {
-    width: 300px; /* Tamaño fijo para las imágenes del slider */
-    height: auto;
-}
-
-/* Estilos para la tabla */
 table {
     border-collapse: collapse;
+    margin-top: 20px; /* Distancia del borde superior de la página */
+    margin-left: 70px;
+    margin-right: auto;
 }
 
-th, td {
-    border: 1px solid black;
-    padding: 10px;
+td {
+    padding: 20px; /* Aumenta la separación del borde de la celda */
 }
 
+.producto{
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin-bottom: 20px; /* Añade distancia entre la imagen y la información del producto */
+}
+
+.product-info {
+    padding-left: 20px; /* Añade espacio entre la imagen y la información */
+}
+
+.product-name {
+    margin-top: 0; /* Ajusta el margen superior del nombre del producto */
+}
