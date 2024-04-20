@@ -1,0 +1,34 @@
+.slide {
+    display: none;
+}
+
+.slider img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para los controles de navegación */
+.control {
+    cursor: pointer;
+}
+/* Estilos para el slider */
+.slider {
+    float: left; /* Alinea el slider a la izquierda */
+    margin-right: 20px; /* Espacio entre el slider y la información del producto */
+}
+
+.slide img {
+    width: 300px; /* Tamaño fijo para las imágenes del slider */
+    height: auto;
+}
+
+/* Estilos para la tabla */
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
