@@ -1,141 +1,131 @@
+body
+{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
 .header
 {
-    background-color: #149c68;
-    padding: 20px;
-    color: #efeae4;
-    font-size: 14px;
-    font-family: Arial;
+    background-color: #119744;
+    color: white;
+    padding: 1px 0;
+    padding-left: 10px;
 }
 
-nav 
+.nav
 {
-    padding: 10px 0;
-    max-height: 60px;
-    overflow: hidden;
+    color: #555555;
 }
 
-#logo-nav
+.contenedor-nav
 {
-    position: absolute;
-    top: 10px; 
-    right: 20px;
-    height:70px;
+    display: flex; /* Utiliza flexbox para los elementos internos */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: center; /* Centra horizontalmente los elementos */
 }
 
-#parrafo1{
-    text-align: center;
-    font-family: Georgia, serif;
-    color: #ffffff;
-    font-size: 20px;
-}
-
-#fondo1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-}
-
-#img-principal
+.logo-nav
 {
-    height: 400px;
-    width: 600px;
+    width: auto; /* Ajusta el tamaño de la imagen según lo deseado */
+    height: 60px; /* Aumenta el tamaño de la imagen */
+    margin-right: 10px; /* Agrega espacio entre la imagen y el campo de búsqueda */
+}
+
+.espacio-nav
+{
+    width: 50%;
+}
+
+#buscador
+{
+    margin-right: 10px; /* Agrega espacio entre la imagen y el campo de búsqueda */
+    width: 250px; /* Ancho deseado para el input */
+    height: 40px; /* Alto deseado para el input */
+    padding: 10px; /* Espacio interno alrededor del texto */
+    background-color: lightgray; /* Color de fondo */
+    border: 2px solid transparent; /* Borde transparente por defecto */
+    border-radius: 5px; /* Agrega bordes redondeados */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho y alto total */
+    transition: border-color 0.3s; /* Agrega una transición suave para el cambio de color del borde */
+}
+
+#buscador:focus {
+    outline-color: #119744; /* Cambia el color del contorno al seleccionar el input */
+}
+
+#bb
+{
+    width: 20px; /* Ajusta el tamaño del botón de búsqueda según lo deseado */
+    height: auto; /* Mantiene la proporción del botón de búsqueda */
+}
+
+
+
+
+.contenedor-menu 
+{
+    display: flex; /* Utiliza flexbox para los elementos internos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    font-weight: bold;
+}
+
+.contenedor-menu ul 
+{
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    margin: 0; /* Elimina el margen predeterminado de la lista */
+    display: flex; /* Utiliza flexbox para los elementos de la lista */
+}
+
+.contenedor-menu ul li 
+{
+    margin-right: 20px; /* Agrega espacio entre cada elemento de la lista */
+}
+
+.contenedor-menu ul li:last-child 
+{
+    margin-right: 0; /* Elimina el espacio después del último elemento de la lista */
+}
+
+.contenedor-menu ul li a 
+{
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #555555; /* Color predeterminado del texto */
+    transition: color 0.3s; /* Agrega una transición suave para el cambio de color */
+}
+
+.contenedor-menu ul li a:hover 
+{
+    color: #119744; /* Cambia el color del texto al pasar el cursor sobre él */
+    font-weight: bold;
 }
 
 .main
 {
-    background-color: #EFEAE4;
-    font-family: Arial;
+    background-color: #f5f6f7;
 }
 
-.footer {
-    background-color: #373737;
-    font-family: Arial;
-    color: #adacac;
+.contenedor-slider {
+    overflow: hidden;
+    width: 100%;
 }
 
-.container {
+.slider {
     display: flex;
-    justify-content: space-between;
-    padding: 30px 0;
+    transition: transform 0.5s ease;
 }
 
-.footer-column {
-    flex: 1;
-    padding: 0 20px;
+.slider img {
+    width: 100%;
+    height: auto;
 }
 
-.footer-column h4 {
-    margin-bottom: 20px;
-}
 
-.footer-column ul {
-    padding: 0;
-    list-style: none;
-}
-
-.footer-column ul li {
-    margin-bottom: 10px;
-}
-
-.footer-column ul li a {
-    color: #adacac;
-    text-decoration: none;
-}
-
-.footer-column p {
-    margin: 0;
-    cursor: pointer;
-}
-
-.footer-bottom {
-    background-color: #1d1d1d;
-    padding: 20px 0;
+.footer
+{
+    background-color: #353535;
+    color: white;
     text-align: center;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    height: 20px;
-    position: absolute;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    display: inline-block;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-}
-
-nav ul li a:hover {
-    background-color: #383939;
-}
-
-.search-box {
-    margin-left: auto;
-}
-
-.search-box input[type="text"] {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
-.search-box button {
-    padding: 5px 10px;
-    background-color: #aee637;
-    border: none;
-    color: #fff;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-.search-box button:hover {
-    background-color: #8db986;
+    padding: 20px 0;
 }
