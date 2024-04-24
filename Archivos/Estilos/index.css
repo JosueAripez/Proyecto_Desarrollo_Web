@@ -34,13 +34,13 @@ body
 
 .espacio-nav
 {
-    width: 50%;
+    width: 80%;
 }
 
 #buscador
 {
     margin-right: 10px; /* Agrega espacio entre la imagen y el campo de búsqueda */
-    width: 250px; /* Ancho deseado para el input */
+    width: 500px; /* Ancho deseado para el input */
     height: 40px; /* Alto deseado para el input */
     padding: 10px; /* Espacio interno alrededor del texto */
     background-color: lightgray; /* Color de fondo */
@@ -59,9 +59,6 @@ body
     width: 20px; /* Ajusta el tamaño del botón de búsqueda según lo deseado */
     height: auto; /* Mantiene la proporción del botón de búsqueda */
 }
-
-
-
 
 .contenedor-menu 
 {
@@ -97,35 +94,148 @@ body
 
 .contenedor-menu ul li a:hover 
 {
-    color: #119744; /* Cambia el color del texto al pasar el cursor sobre él */
+    color: #119744; /* Cambia el color del texto al pasar el cursor sobre el */
     font-weight: bold;
 }
 
 .main
 {
-    background-color: #f5f6f7;
+    background-color: #ebebeb;
 }
 
-.contenedor-slider {
+h1
+{
+    text-align: center;
+}
+
+.contenedor-slider
+{
     overflow: hidden;
     width: 100%;
 }
 
-.slider {
+.slider
+{
     display: flex;
     transition: transform 0.5s ease;
+    width: 100%;
 }
 
-.slider img {
+.slider img
+{
     width: 100%;
     height: auto;
 }
 
+.Productos_nuevos
+{
+    margin: 20px auto; /* Centra el div horizontalmente con margen en la parte superior e inferior */
+    width: 90%; /* Ancho del div */
+}
+
+.Tabla
+{
+    border-collapse: separate; /* Bbordes separado */
+    border-spacing: 10px; /* Espacio entre las celdas */
+    border-radius: 10px; /* Bordes redondeados */
+    width: 100%; /* Ancho de la tabla */
+}
+
+.Tabla td
+{
+    padding: 20px; /* Espacio interno de las celdas */
+    background-color: white; /* Color de fondo azul */
+    border: 2px solid white; /* Borde de las celdas */
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.img_tabla
+{
+    width: 100px; /* Establece el ancho deseado para la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.vermas
+{
+    border-radius: 5px; /* Hace que los bordes sean redondeados */
+    background-color: #ebebeb; /* Color de fondo del botón */
+    color: #555555; /* Color del texto del botón */
+    border: 2px solid #ebebeb; /* Define el grosor y el color del borde */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Agrega una transición suave al cambiar los estilos */
+}
+
+.vermas:hover
+{
+    background-color: #119744; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+    color: #fff; /* Cambia el color del texto al pasar el mouse sobre el botón */
+    border-color: #119744; /* Cambia el color del borde al pasar el mouse sobre el botón */ 
+}
+
+.Directorio_vir
+{
+    width: 89%; /* Ancho del 60% de la página */
+    margin: 0 auto; /* Margen automático para centrar horizontalmente */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: lightblue; /* Color de fondo */
+    padding: 20px; /* Espacio interno */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho total */
+    display: flex; /* Utiliza flexbox para los elementos internos */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+}
 
 .footer
 {
     background-color: #353535;
     color: white;
-    text-align: center;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.footer-column
+{
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-column h4
+{
+    margin-bottom: 20px;
+}
+
+.footer-column ul
+{
+    padding: 0;
+    list-style: none;
+}
+
+.footer-column ul li
+{
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column p
+{
+    margin: 0;
+    cursor: pointer;
+}
+
+.footer-bottom
+{
+    background-color: #1d1d1d;
     padding: 20px 0;
+    text-align: center;
 }
