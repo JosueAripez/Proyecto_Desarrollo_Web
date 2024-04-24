@@ -39,12 +39,14 @@ td {
 .slide {
     display: none; /* Por defecto, oculta todas las diapositivas */
     width: 300px; /* Ancho del slider */
-    animation: slideAnimation 0.7s ease-in-out; /* Animación para el desplazamiento */
+    animation: slideAnimationout 0.7s ease-in-out; /* Animación para el desplazamiento */
 }
 
 
+
+
 /* Animación para el desplazamiento de diapositivas */
-@keyframes slideAnimation {
+@keyframes slideAnimationout {
     from { margin-left: -300px; } /* Empieza desde la izquierda */
     to { margin-left: 0; } /* Se desplaza hacia la derecha */
 }

@@ -9,8 +9,11 @@ document.addEventListener("DOMContentLoaded", function() {
         slides.forEach((slide, i) => {
             if (i === index) {
                 slide.style.display = 'block';
+                slide.classList.add('active'); // Agrega la clase 'active' a la diapositiva actual
+
             } else {
                 slide.style.display = 'none';
+                slide.classList.remove('active'); // Elimina la clase 'active' de las diapositivas que no son la actual
             }
         });
     }
