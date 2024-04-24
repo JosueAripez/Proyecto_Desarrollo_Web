@@ -7,10 +7,9 @@
     <title>Nat's Veggies</title>
     <link href="..\..\\Archivos/Imgs/Logo_NV.png" rel="icon">
     <link href="..\..\\Archivos/Estilos/index.css" rel="stylesheet">
-    <link href="..\..\\Archivos/Estilos/productos.css" rel="stylesheet">
     <link href="..\..\\Archivos/Estilos/productosdetalles.css" rel="stylesheet">
-    <script src="..\..\\Archivos/Scripts/productos.js"></script>
     <script src="..\..\\Archivos/Scripts/productosdetalles.js"></script>
+    
     
 </head>
 
@@ -34,11 +33,20 @@
         <br>
     </nav>
     
-
     <table>
         <tr>
             <td style="width: 300px;">
-                <img src="..\..\\Archivos/Imgs/Productos/Melon_Palmira.jpg" alt="Imagen del producto" class="producto">
+                <div class="slider-container">
+                    <div class="slider">
+                        <div class="slide">
+                            <img src="..\..\\Archivos/Imgs/Productos/Melon_Palmira.jpg" alt="Slide 1" class="producto">
+                        </div>
+                        <div class="slide">
+                            <img src="..\..\\Archivos/Imgs/Productos/Chile_Habanero.jpg" alt="Slide 2" class="producto">
+                        </div>
+                        <!-- Agrega más diapositivas según sea necesario -->
+                    </div>
+                </div>
                 <div>
                     <button class="prev">Anterior</button>
                     <button class="next">Siguiente</button>
@@ -47,11 +55,12 @@
             <td class="product-info">
                 <h2 class="product-name">Nombre del Producto</h2>
                 <p>Descripción del producto.</p>
-                <p>Precio: $XX.XX</p>
                 <p>Otras informaciones relevantes sobre el producto.</p>
             </td>
         </tr>
     </table>
+
+    
 
 
     

@@ -23,3 +23,28 @@ td {
 .product-name {
     margin-top: 0; /* Ajusta el margen superior del nombre del producto */
 }
+
+.slider-container {
+    width: 300px; /* Ancho del slider */
+    overflow: hidden; /* Oculta las partes de las diapositivas que se salen del contenedor */
+}
+
+.slide img {
+    max-width: 100%; /* Ancho máximo del slider */
+    max-height: 300px; /* Altura máxima de 300px */
+}
+
+
+/* Estilo para cada diapositiva */
+.slide {
+    display: none; /* Por defecto, oculta todas las diapositivas */
+    width: 300px; /* Ancho del slider */
+    animation: slideAnimation 0.7s ease-in-out; /* Animación para el desplazamiento */
+}
+
+
+/* Animación para el desplazamiento de diapositivas */
+@keyframes slideAnimation {
+    from { margin-left: -300px; } /* Empieza desde la izquierda */
+    to { margin-left: 0; } /* Se desplaza hacia la derecha */
+}
