@@ -1,0 +1,112 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.contact-section {
+    position: relative;
+    height: 450px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    filter: blur(5px); /* Aplicar un filtro de desenfoque solo a la imagen de fondo */
+    z-index: -1; /* Colocar el contenedor detrás del contenido */
+}
+
+.background-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: relative; /* Asegurar que el contenido esté por encima del contenedor de fondo */
+    z-index: 1; /* Colocar el contenido delante del contenedor de fondo */
+}
+
+.contact-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 740px;
+    margin-top: 50px;
+    margin-bottom: 50px; /* Aumento del espacio entre el grid y el footer */
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-item:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 70%;
+}
+
+input[type="text"], input[type="email"], input[type="subject"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.image-container {
+    height: 370px;
+    background-image: url('..\\..\\Archivos/Imgs/Campo/Imagen_principal.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Mantener el espacio y centrar el contenido en gray-box */
+.text-box {
+    height: 370px;
+    background-color: #39b935;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
