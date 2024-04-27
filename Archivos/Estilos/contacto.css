@@ -56,11 +56,15 @@ body, html {
 
 .grid-item {
     padding: 20px;
+    
+}
+
+.titulo-form{
     text-align: center;
 }
 
 .grid-item:nth-child(odd) {
-    background-color: #f2f2f2;
+    background-color: #fffefe;
 }
 
 .form-container {
@@ -68,6 +72,7 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 form {
@@ -83,9 +88,9 @@ input[type="text"], input[type="email"], input[type="subject"], textarea {
     box-sizing: border-box;
 }
 input[type="submit"] {
-    width: 100%;
+    width: 100px;
     padding: 10px;
-    background-color: #333;
+    background-color: #07921a;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -109,4 +114,8 @@ input[type="submit"] {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.form-container p{
+    font-weight: bold;
 }

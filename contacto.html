@@ -45,13 +45,19 @@
         
         <div class="grid-container">
             <div class="grid-item">
-                <h2>Información de contacto</h2>
-                <p>¡Contáctanos para cualquier pregunta o inquietud!</p>
+                <div class="titulo-form">
+                    <h2>Información de contacto</h2>
+                    <p>¡Contáctanos para cualquier pregunta o inquietud!</p>
+                </div>
                 <div class="form-container">
                     <form action="#" method="POST">
+                        <p>Nombre</p>
                         <input type="text" name="nombre" placeholder="Nombre" required>
+                        <p>Email</p>
                         <input type="email" name="correo" placeholder="Correo electrónico" required>
+                        <p>Asunto</p>
                         <input type="text" name="asunto" placeholder="Asunto" required>
+                        <p>Mensaje</p>
                         <textarea name="mensaje" placeholder="Mensaje" rows="6" required></textarea>
                         <input type="submit" value="Enviar">
                     </form>
