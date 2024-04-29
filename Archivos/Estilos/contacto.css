@@ -37,6 +37,10 @@ body, html {
     z-index: 1; /* Colocar el contenido delante del contenedor de fondo */
 }
 
+.content p{
+    color: white;
+}
+
 .contact-section h1 {
     font-size: 3em;
     margin-bottom: 20px;
