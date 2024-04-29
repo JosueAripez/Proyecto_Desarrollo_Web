@@ -68,7 +68,7 @@ body, html {
 }
 
 .grid-item:nth-child(odd) {
-    background-color: #fffefe;
+    background-color: #ffffff;
 }
 
 .form-container {
