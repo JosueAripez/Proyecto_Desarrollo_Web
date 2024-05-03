@@ -28,8 +28,9 @@ body
 .logo-nav
 {
     width: auto; /* Ajusta el tamaño de la imagen según lo deseado */
-    height: 60px; /* Aumenta el tamaño de la imagen */
+    height: 50px; /* Aumenta el tamaño de la imagen */
     margin-right: 10px; /* Agrega espacio entre la imagen y el campo de búsqueda */
+    margin-top: 10px;
 }
 
 .espacio-nav
@@ -48,6 +49,7 @@ body
     border-radius: 5px; /* Agrega bordes redondeados */
     box-sizing: border-box; /* Incluye el relleno y el borde en el ancho y alto total */
     transition: border-color 0.3s; /* Agrega una transición suave para el cambio de color del borde */
+    margin-top: 10px;
 }
 
 #buscador:focus {
@@ -58,6 +60,7 @@ body
 {
     width: 20px; /* Ajusta el tamaño del botón de búsqueda según lo deseado */
     height: auto; /* Mantiene la proporción del botón de búsqueda */
+    margin-top: 10px;
 }
 
 .contenedor-menu 

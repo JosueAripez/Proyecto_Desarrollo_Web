@@ -1,0 +1,121 @@
+.imagen{
+    width: 600px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.centro{
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 70px;
+}
+
+.texto1{
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+
+.fondo{
+    background-color: white;
+}
+
+.frutas{
+    position: absolute;
+    width: 450px;
+    margin-left: 1050px;
+    margin-top: 180px;
+}
+
+.chile{
+    position: absolute;
+    width: 360px;
+    margin-left: 1020px;
+    margin-top: 10px;
+}
+
+.contenedor{
+    background-color: #119744;
+    font-size: 20px;
+    width: 1200px;
+    height: 250px;
+    color: white;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.encabezado{
+    text-align: left;
+    margin-left: 50px;
+}
+
+.texto2{
+    text-align: left;
+    margin-left: 100px;
+}
+
+.fresas{
+    position: absolute;
+    width: 270px;
+    margin-left: 220px;
+    margin-top: 120px;
+}
+
+.contenedor2{
+    background-color: #119744;
+    font-size: 20px;
+    width: 1200px;
+    height: 250px;
+    color: white;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.encabezado2{
+    text-align: right;
+    margin-right: 50px;
+}
+
+.texto3{
+    text-align: right;
+    margin-right: 100px;
+}
+
+.pepino{
+    position: absolute;
+    width: 500px;
+    margin-left: 950px;
+    margin-top: 20px;
+}
+
+.contenedor3{
+    background-color: #119744;
+    font-size: 20px;
+    width: 1200px;
+    height: 250px;
+    color: white;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.encabezado3{
+    text-align: left;
+    margin-left: 50px;
+}
+
+.texto4{
+    text-align: left;
+    margin-left: 100px;
+}
