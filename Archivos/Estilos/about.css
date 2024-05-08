@@ -1,48 +1,62 @@
 .imagen{
-    width: 600px;
-    border-radius: 10px;
-    margin-left: 20px;
+    width: 100%;
+    height: 700px;
+    filter: blur(4px);
+    overflow: hidden;
+}
+
+.imagen2{
+    width: 100%;
+    height: 700px;
+    filter: blur(4px);
 }
 
 .centro{
     color: white;
     font-size: 100px;
     position: absolute;
-    margin-top: 110px;
+    margin-top: 200px;
     margin-left: 70px;
+    z-index: 1;
+    text-shadow: 10px 10px 10px black;
+}
+
+.centro2{
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 440px;
+    z-index: 1;
+    text-shadow: 10px 10px 10px black;
 }
 
 .texto1{
-    color: black;
+    color: white;
     font-size: 25px;
     position: absolute;
-    margin-left: 700px;
-    margin-top: 100px;
+    margin-left: 600px;
+    margin-top: 200px;
 }
 
 .fondo{
     background-color: white;
-}
-
-.frutas{
-    position: absolute;
-    width: 450px;
-    margin-left: 1050px;
-    margin-top: 180px;
+    display: flex;
 }
 
 .chile{
     position: absolute;
-    width: 360px;
-    margin-left: 1020px;
-    margin-top: 10px;
+    width: 400px;
+    margin-left: 1076px;
+    margin-top: 30px;
+    transform: rotate(-10deg);
 }
 
 .contenedor{
     background-color: #119744;
     font-size: 20px;
     width: 1200px;
-    height: 250px;
+    height: 180px;
     color: white;
     text-align: left;
     margin-top: 50px;
@@ -71,11 +85,11 @@
     background-color: #119744;
     font-size: 20px;
     width: 1200px;
-    height: 250px;
+    height: 230px;
     color: white;
     text-align: right;
     margin-left: auto;
-    margin-right: 50px;
+    margin-right: 20px;
     margin-top: 100px;
     border-radius: 10px;
 }
@@ -92,7 +106,7 @@
 
 .pepino{
     position: absolute;
-    width: 500px;
+    width: 350px;
     margin-left: 950px;
     margin-top: 20px;
 }
@@ -101,7 +115,7 @@
     background-color: #119744;
     font-size: 20px;
     width: 1200px;
-    height: 250px;
+    height: 300px;
     color: white;
     text-align: left;
     margin-top: 100px;
@@ -118,4 +132,12 @@
 .texto4{
     text-align: left;
     margin-left: 100px;
+}
+
+.texto5{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    margin-left: 440px;
+    margin-top: 200px;
 }
