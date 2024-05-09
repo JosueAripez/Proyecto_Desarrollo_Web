@@ -33,10 +33,11 @@
 
 .texto1{
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     position: absolute;
-    margin-left: 600px;
-    margin-top: 200px;
+    margin-left: 660px;
+    margin-top: 190px;
+    text-shadow: 5px 5px 5px black;
 }
 
 .fondo{
@@ -136,8 +137,9 @@
 
 .texto5{
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     position: absolute;
-    margin-left: 440px;
+    margin-left: 320px;
     margin-top: 200px;
+    text-shadow: 5px 5px 5px black;
 }
