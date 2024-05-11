@@ -43,10 +43,14 @@ td {
 }
 
 
-
+img{
+    max-width: 100%; /* Ancho máximo del slider */
+    max-height: 300px; /* Altura máxima de 300px */
+}
 
 /* Animación para el desplazamiento de diapositivas */
 @keyframes slideAnimationout {
     from { margin-left: -300px; } /* Empieza desde la izquierda */
     to { margin-left: 0; } /* Se desplaza hacia la derecha */
 }
+

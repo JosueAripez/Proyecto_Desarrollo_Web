@@ -33,3 +33,4 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelector('.next').addEventListener('click', nextSlide);
     document.querySelector('.prev').addEventListener('click', prevSlide);
 });
+
