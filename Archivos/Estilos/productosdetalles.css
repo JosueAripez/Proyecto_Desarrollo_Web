@@ -9,11 +9,11 @@ td {
     padding: 20px; /* Aumenta la separación del borde de la celda */
 }
 
-.producto{
-    max-width: 500px;
-    height: auto;
-    display: block;
-    margin-bottom: 20px; /* Añade distancia entre la imagen y la información del producto */
+.parrafo-detalles{
+    text-align: justify;
+    margin-left: 50px; /* Espaciado a la izquierda */
+    margin-right: 50px; /* Espaciado a la derecha */
+    font-size:smaller;
 }
 
 .product-info {
@@ -24,35 +24,7 @@ td {
     margin-top: 0; /* Ajusta el margen superior del nombre del producto */
 }
 
-.slider-container {
-    width: 300px; /* Ancho del slider */
-    overflow: hidden; /* Oculta las partes de las diapositivas que se salen del contenedor */
-}
 
-.slide img {
-    max-width: 100%; /* Ancho máximo del slider */
-    max-height: 300px; /* Altura máxima de 300px */
-}
-
-
-/* Estilo para cada diapositiva */
-.slide {
-    display: none; /* Por defecto, oculta todas las diapositivas */
-    width: 300px; /* Ancho del slider */
-    animation: slideAnimationout 0.7s ease-in-out; /* Animación para el desplazamiento */
-}
-
-
-img{
-    max-width: 100%; /* Ancho máximo del slider */
-    max-height: 300px; /* Altura máxima de 300px */
-}
-
-/* Animación para el desplazamiento de diapositivas */
-@keyframes slideAnimationout {
-    from { margin-left: -300px; } /* Empieza desde la izquierda */
-    to { margin-left: 0; } /* Se desplaza hacia la derecha */
-}
 
 .carousel__contenedor{
     position:relative;
@@ -81,4 +53,27 @@ img{
 
 .carousel__siguiente{
     right: -30px;
+}
+
+#Detalles-producto {
+    width: calc(100% - 100px); /* El ancho de la página menos el espacio deseado en ambos lados */
+    margin-left: 50px; /* Espaciado a la izquierda */
+    margin-right: 50px; /* Espaciado a la derecha */
+    margin-top: 20px; /* Espaciado superior */
+    margin-bottom: 20px; /* Espaciado inferior */
+    border-collapse: collapse; /* Colapsa los bordes de las celdas */
+}
+
+/* Estilos para el encabezado de la tabla */
+#Detalles-producto thead th {
+    background-color: #f2f2f2; /* Color de fondo */
+    text-align: center; /* Alineación del texto al centro */
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Estilos para las celdas de la tabla */
+#Detalles-producto td {
+    border: 1px solid #ddd; /* Borde de las celdas */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto al centro */
 }
