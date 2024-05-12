@@ -34,7 +34,7 @@ td {
 
 .carousel__anterior, .carousel__siguiente{
     position:absolute;
-    display:block;
+    display: none; /* Ocultar los botones por defecto */
     width:30px;
     height:30px;
     border: none;
@@ -42,17 +42,23 @@ td {
     cursor:pointer;
     line-height: 30px;
     text-align: center;
-    background: none;
+    background-color: rgba(255, 255, 255, 0.5);
+
     color:black;
     opacity:100%;
 }
 
 .carousel__anterior{
-    left:-30px;
+    left:-1px;
 }
 
 .carousel__siguiente{
-    right: -30px;
+    right: -1px;
+}
+
+.carousel__contenedor:hover .carousel__anterior,
+.carousel__contenedor:hover .carousel__siguiente {
+    display: block;
 }
 
 #Detalles-producto {
