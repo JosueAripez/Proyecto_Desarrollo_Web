@@ -119,3 +119,9 @@ a.referencia-producto:hover {
 a.referencia-producto:active {
     color: darkgreen; /* Mantiene el color verde oscuro */
 }
+
+.certificacion{
+    height:50px;
+    width: auto;
+    margin-right: 50px;
+}

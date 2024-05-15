@@ -24,12 +24,14 @@ td {
     margin-top: 0; /* Ajusta el margen superior del nombre del producto */
 }
 
-
-
 .carousel__contenedor{
     position:relative;
     max-width: 300px;
+}
 
+.carousel__elemento{
+    max-width: 300px;
+    max-height: 300px;
 }
 
 .carousel__anterior, .carousel__siguiente{
