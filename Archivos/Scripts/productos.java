@@ -3,38 +3,45 @@ import java.util.ArrayList;
 public class Productos {
     protected String nombreP; //nombre del producto
     protected String claveP; //clave para el producto
-    protected int cantidad; //cantidad o existencias del producto
-    protected int precio; //precio a asignar al producto
-    
+    protected String Variedad;
+    protected int tiempocrecimiento;
+    protected int pesoprom;
+    protected int toneladasxhectarea;
 
-    //constructor vacio
-    public Productos(){
-        
+    public Productos() {
     }
-    
-    //constructor para asignar valores a un prodcuto
-    public Productos(String nombreP, String claveP, int cantidad, int precio){
+
+    public Productos(String nombreP, String claveP, String Variedad, int tiempocrecimiento, int pesoprom, int toneladasxhectarea) {
         this.nombreP = nombreP;
         this.claveP = claveP;
-        this.cantidad = cantidad;
-        this.precio = precio;
+        this.Variedad = Variedad;
+        this.tiempocrecimiento = tiempocrecimiento;
+        this.pesoprom = pesoprom;
+        this.toneladasxhectarea = toneladasxhectarea;
     }
-    
-    //getters y setters
-    public String getNombreP(){
+
+    public String getNombreP() {
         return nombreP;
     }
 
-    public String getClaveP(){
+    public String getClaveP() {
         return claveP;
     }
 
-    public int getCantidad(){
-        return cantidad;
+    public String getVariedad() {
+        return Variedad;
     }
 
-    public int getPrecio(){
-        return precio;
+    public int getTiempocrecimiento() {
+        return tiempocrecimiento;
+    }
+
+    public int getPesoprom() {
+        return pesoprom;
+    }
+
+    public int getToneladasxhectarea() {
+        return toneladasxhectarea;
     }
 
     public void setNombreP(String nombreP) {
@@ -45,21 +52,28 @@ public class Productos {
         this.claveP = claveP;
     }
 
-    public void setCantidad(int cantidad) {
-        this.cantidad = cantidad;
+    public void setVariedad(String Variedad) {
+        this.Variedad = Variedad;
     }
 
-    public void setPrecio(int precio) {
-        this.precio = precio;
+    public void setTiempocrecimiento(int tiempocrecimiento) {
+        this.tiempocrecimiento = tiempocrecimiento;
+    }
+
+    public void setPesoprom(int pesoprom) {
+        this.pesoprom = pesoprom;
+    }
+
+    public void setToneladasxhectarea(int toneladasxhectarea) {
+        this.toneladasxhectarea = toneladasxhectarea;
     }
     
-    //productos
-    public static ArrayList<Productos> inicializa(){
-        ArrayList<Productos> lista = new ArrayList();
+    public static ArrayList<Productos> inicializa() {
+        ArrayList<Productos> lista = new ArrayList<>();
         
-        Productos producto1 = new Productos("Fresa", "A100", 10, 20);
-        Productos producto2 = new Productos("Chile", "A101", 8, 25);
-        Productos producto3 = new Productos("Pepino", "A102", 12, 15);
+        Productos producto1 = new Productos("Fresa", "A100", "Variedad1", 30, 20, 10);
+        Productos producto2 = new Productos("Chile", "A101", "Variedad2", 60, 25, 15);
+        Productos producto3 = new Productos("Pepino", "A102", "Variedad3", 40, 15, 12);
         
         lista.add(producto1);
         lista.add(producto2);
@@ -67,3 +81,11 @@ public class Productos {
         
         return lista;
     }
+
+    public static ArrayList<Productos> agregaProductos(String clave, String nombre, String variedad, int tiempoCrecimiento, int pesoProm, int toneladasXHectarea) {
+        ArrayList<Productos> prods = inicializa();
+        prods.add(new Productos(nombre, clave, variedad, tiempoCrecimiento, pesoProm, toneladasXHectarea));
+        return prods;
+    }
+    
+}
